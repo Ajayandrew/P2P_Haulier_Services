@@ -27,9 +27,9 @@ const RunningCounter = ({ from = 0, to, duration = 1.5, suffix = "" }) => {
       }
     );
 
-    if (currentElement) {
-      observer.observe(currentElement);
-    }
+    // if (currentElement) {
+    //   observer.observe(currentElement);
+    // }
 
     return () => {
       if (currentElement) {
