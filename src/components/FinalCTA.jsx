@@ -4,7 +4,7 @@ export default function FinalCTA() {
   return (
     <section className="py-24 px-4 max-w-7xl mx-auto relative z-10">
       <div className="relative rounded-3xl border border-brand-blue/40 bg-gradient-to-br from-[#030712] via-brand-blue/20 to-gray-900 p-12 md:p-20 text-center overflow-hidden group">
-        <div className="absolute top-0 right-0 w-80 h-80 rounded-full bg-brand-orange/10 blur-[100px] pointer-events-none" />
+        <div className="absolute top-0 right-0 w-80 h-80 rounded-full bg-brand-orange/10 blur-[60px] pointer-events-none" />
         
         <div className="max-w-2xl mx-auto space-y-8 relative z-10">
           <h2 className="text-4xl md:text-6xl font-black tracking-tight leading-none">Ready To Move Smarter?</h2>

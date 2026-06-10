@@ -81,15 +81,12 @@ export default function Hero() {
               {/* LIVE ROUTE OVERLAY VECTOR */}
               <svg className="absolute inset-0 w-full h-full p-0 pointer-events-none z-10" viewBox="0 0 400 200">
                 <path d="M 20 150 Q 120 30, 220 110 T 380 40" fill="none" stroke="rgba(30, 41, 59, 0.5)" strokeWidth="3" />
-                <motion.path 
-                  d="M 20 150 Q 120 30, 220 110 T 380 40" 
-                  fill="none" 
-                  stroke="#F6921E" 
-                  strokeWidth="3" 
-                  strokeDasharray="10, 10"
-                  animate={{ strokeDashoffset: [-20, 0] }}
-                  transition={{ repeat: Infinity, duration: 2, ease: "linear" }}
-                />
+                <path
+  d="M 20 150 Q 120 30, 220 110 T 380 40"
+  fill="none"
+  stroke="#F6921E"
+  strokeWidth="3"
+/>
               </svg>
 
               <div className="flex justify-between relative z-20">
